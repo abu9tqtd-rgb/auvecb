@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Web Design Certificate</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:linear-gradient(to right,#141e30,#243b55);
+      color:white;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      min-height:100vh;
+      padding:20px;
+    }
+
+    .card{
+      background:white;
+      color:black;
+      width:100%;
+      max-width:700px;
+      border-radius:20px;
+      overflow:hidden;
+      box-shadow:0 0 20px rgba(0,0,0,0.5);
+    }
+
+    .top{
+      background:#0a66c2;
+      color:white;
+      text-align:center;
+      padding:40px 20px;
+    }
+
+    .top h1{
+      font-size:40px;
+      margin-bottom:10px;
+    }
+
+    .top p{
+      font-size:18px;
+    }
+
+    .content{
+      padding:30px;
+    }
+
+    .content h2{
+      margin-bottom:15px;
+      color:#0a66c2;
+    }
+
+    .info{
+      margin-bottom:20px;
+    }
+
+    .info p{
+      margin:10px 0;
+      font-size:18px;
+    }
+
+    .skills{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+      gap:15px;
+      margin-top:20px;
+    }
+
+    .skill{
+      background:#0a66c2;
+      color:white;
+      padding:15px;
+      text-align:center;
+      border-radius:10px;
+      font-weight:bold;
+    }
+
+    .footer{
+      text-align:center;
+      padding:20px;
+      background:#f1f1f1;
+      font-size:16px;
+    }
+
+    @media(max-width:600px){
+
+      .top h1{
+        font-size:28px;
+      }
+
+      .content{
+        padding:20px;
+      }
+
+      .info p{
+        font-size:16px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="card">
+
+    <div class="top">
+      <h1>Responsive Web Design</h1>
+      <p>Certification Portfolio</p>
+    </div>
+
+    <div class="content">
+
+      <h2>Student Details</h2>
+
+      <div class="info">
+        <p><strong>Name:</strong> Abubakar Shaik</p>
+
+        <p><strong>Course:</strong> Responsive Web Design Certification</p>
+
+        <p><strong>Skills:</strong> HTML, CSS, Responsive Design</p>
+
+        <p><strong>Goal:</strong> Become a Software Developer</p>
+
+        <p><strong>Status:</strong> Learning & Building Projects</p>
+        <p><strong>WhatsApp:</strong> +91 8519814263</p>
+      </div>
+
+      <h2>Skills Learned</h2>
+
+      <div class="skills">
+
+        <div class="skill">HTML5</div>
+
+        <div class="skill">CSS3</div>
+
+        <div class="skill">Flexbox</div>
+
+        <div class="skill">Grid</div>
+
+        <div class="skill">Media Query</div>
+
+        <div class="skill">Responsive UI</div>
+
+      </div>
+
+    </div>
+
+    <div class="footer">
+      Created by Abubakar Shaik © 2026
+    </div>
+
+  </div>
+
+</body>
+</html>
